@@ -11,9 +11,11 @@
 [![Github release](https://img.shields.io/github/v/release/Yohn/PicoCSS?color=0172.ad&logo=github&logoColor=white)](https://github.com/Yohn/PicoCSS/releases/latest)
 [![npm version](https://img.shields.io/npm/v/@yohns/picocss?color=0172ad)](https://www.npmjs.com/package/@yohns/picocss)
 [![License](https://img.shields.io/badge/license-MIT-%230172ad)](https://github.com/Yohn/PicoCSS/blob/master/LICENSE.md)
+
 <!-- [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/picocss.svg?style=social&label=Follow%20%40picocss)](https://twitter.com/picocss) -->
 
 ## Yohns Updated Version
+
 I'm not sure if the original [Pico CSS](https://github.com/picocss/pico) repository is abandoned or not, but I really liked what they had to offer, and wanted to help not let this awesomely simple and easy to use front end framework disappear, so I merged as many of open pull requests that fixed some issues, and / or enhanced the project that were available at the time. I'll try to help keep it viable and do some bug fixes if any arise, and would alway appreciate anyone elses help to continue keeping this alive!
 
 You can see the new features I, and many others have created pull requests for by going to [Yohns Pico CSS](https://yohn.github.io/PicoCSS). This page just has the demos of most of the features I have merged, or added to the project.
@@ -85,6 +87,7 @@ Alternatively, you can use [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@
 ```shell
 npm i @yohns/picocss
 ```
+
 <!--
 Or
 
