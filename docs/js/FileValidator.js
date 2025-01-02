@@ -112,11 +112,11 @@ class FileValidator {
 	 */
 	removeFile(file, listItem) {
 		const filesArray = Array.from(this.fileInput.files);
-		const updatedFiles = filesArray.filter(f => f !== file);
+		const updatedFiles = filesArray.filter((f) => f !== file);
 
 		// Update the input element with the new FileList
 		const dataTransfer = new DataTransfer();
-		updatedFiles.forEach(f => dataTransfer.items.add(f));
+		updatedFiles.forEach((f) => dataTransfer.items.add(f));
 		this.fileInput.files = dataTransfer.files;
 
 		// Remove the list item from the display
@@ -130,8 +130,8 @@ class FileValidator {
 	 * @returns {boolean} - True if the file type is valid, otherwise false.
 	 */
 	isFileTypeValid(file, accept) {
-		const acceptedTypes = accept.split(",").map(type => type.trim());
-		return acceptedTypes.some(type => {
+		const acceptedTypes = accept.split(",").map((type) => type.trim());
+		return acceptedTypes.some((type) => {
 			if (type.includes("/") && file.type === type) return true;
 			if (type.startsWith(".") && file.name.endsWith(type)) return true;
 			if (type.endsWith("/*")) return file.type.startsWith(type.split("/")[0] + "/");
@@ -139,7 +139,6 @@ class FileValidator {
 		});
 	}
 }
-
 
 // Usage example:
 // <input type="file" id="fileInput" accept=".jpg, .png, .gif, .svg" data-max-size="1048576" multiple>
