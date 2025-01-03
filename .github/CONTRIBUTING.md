@@ -4,9 +4,10 @@ Thanks for your interest in contributing to Pico CSS! Please take a moment to re
 
 ## Bug reports
 
-The [issue tracker]((https://github.com/Yohn/PicoCSS/issues)) is the preferred channel for bug reports, but please respect the following restrictions:
+The [issue tracker](<(https://github.com/Yohn/PicoCSS/issues)>) is the preferred channel for bug reports, but please respect the following restrictions:
+
 - Please do not use the issue tracker for personal support requests. [Open a question in our discussion forums](https://github.com/Yohn/PicoCSS/discussions/categories/help) instead.
-- Please do not use the issue tracker for feature requests.  Instead, use our discussion forums to [suggest any ideas](https://github.com/Yohn/PicoCSS/discussions/categories/ideas) you have.
+- Please do not use the issue tracker for feature requests. Instead, use our discussion forums to [suggest any ideas](https://github.com/Yohn/PicoCSS/discussions/categories/ideas) you have.
 
 ## Pull requests
 

@@ -32,9 +32,7 @@ class PicoTabs {
 		this.tabListContainer = document.querySelector(tabListContainerSelector);
 		// Check if tablist element exists on the page
 		if (!this.tabListContainer) {
-			console.warn(
-				`No element with ${tabListContainerSelector} found on the page.`
-			);
+			console.warn(`No element with ${tabListContainerSelector} found on the page.`);
 			return;
 		}
 
