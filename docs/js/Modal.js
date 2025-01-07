@@ -18,7 +18,15 @@
 		event.preventDefault();
 		const modal = document.getElementById(event.currentTarget.dataset.target);
 		if (!modal) return;
-		modal && (modal.open ? closeModal(modal) : openModal(modal));
+		if(event.currentTarget.dataset.close) {
+			const modalClose = document.getElementById(event.currentTarget.dataset.close);
+			if(modalClose){
+				closeModal(modalClose);
+				setTimeout(() => modal && (modal.open ? closeModal(modal) : openModal(modal)), animationDuration);
+			}
+		} else {
+			modal && (modal.open ? closeModal(modal) : openModal(modal));
+		}
 	};
 
 	// Open modal
