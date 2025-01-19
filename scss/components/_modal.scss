@@ -95,7 +95,7 @@
         display: block;
         width: 1rem;
         height: 1rem;
-        margin-top: calc(var(#{$css-var-prefix}spacing) * -1);
+        margin-block-start: calc(var(#{$css-var-prefix}spacing) * -1);
         margin-bottom: var(#{$css-var-prefix}spacing);
         margin-inline-start: auto;
         border: none;
@@ -192,7 +192,7 @@
           > footer {
             display: flex;
             justify-content: flex-end;
-            margin-top: auto;
+            margin-block-start: auto;
           }
         }
       }

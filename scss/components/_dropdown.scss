@@ -138,7 +138,7 @@
         min-width: 200px;
         min-width: fit-content;
         margin: 0;
-        margin-top: var(#{$css-var-prefix}outline-width);
+        margin-block-start: var(#{$css-var-prefix}outline-width);
         padding: 0;
         border: var(#{$css-var-prefix}border-width)
           solid
@@ -169,7 +169,7 @@
           list-style: none;
 
           &:first-of-type {
-            margin-top: calc(var(#{$css-var-prefix}form-element-spacing-vertical) * 0.5);
+            margin-block-start: calc(var(#{$css-var-prefix}form-element-spacing-vertical) * 0.5);
           }
 
           &:last-of-type {
@@ -292,6 +292,6 @@
   // Label
   // ––––––––––––––––––––
   #{$parent-selector} label > details.dropdown {
-    margin-top: calc(var(#{$css-var-prefix}spacing) * 0.25);
+    margin-block-start: calc(var(#{$css-var-prefix}spacing) * 0.25);
   }
 }

@@ -51,7 +51,7 @@
   #{$parent-selector} table > tfoot {
     th,
     td {
-      border-top: var(#{$css-var-prefix}border-width)
+      border-block-start: var(#{$css-var-prefix}border-width)
         solid
         var(#{$css-var-prefix}table-border-color);
       border-bottom: 0;

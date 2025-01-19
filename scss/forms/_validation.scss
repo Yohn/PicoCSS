@@ -125,7 +125,7 @@
           height: 1rem;
           margin-inline-end: 10px;
           padding: 0;
-          padding-top: calc(var(#{$css-var-prefix}spacing) * 0.25);
+          padding-block-start: calc(var(#{$css-var-prefix}spacing) * 0.25);
           border: none;
           background-image: var(#{$css-var-prefix}icon-red-close);
           background-position: center;

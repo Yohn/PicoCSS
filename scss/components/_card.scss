@@ -27,7 +27,7 @@
     }
 
     > header {
-      margin-top: calc(var(#{$css-var-prefix}block-spacing-vertical) * -1);
+      margin-block-start: calc(var(#{$css-var-prefix}block-spacing-vertical) * -1);
       margin-bottom: var(#{$css-var-prefix}block-spacing-vertical);
       border-bottom: var(#{$css-var-prefix}border-width)
         solid
@@ -57,9 +57,9 @@
     }
 
     > footer {
-      margin-top: var(#{$css-var-prefix}block-spacing-vertical);
+      margin-block-start: var(#{$css-var-prefix}block-spacing-vertical);
       margin-bottom: calc(var(#{$css-var-prefix}block-spacing-vertical) * -1);
-      border-top: var(#{$css-var-prefix}border-width)
+      border-block-start: var(#{$css-var-prefix}border-width)
         solid
         var(#{$css-var-prefix}card-border-color);
       border-bottom-right-radius: var(#{$css-var-prefix}border-radius);

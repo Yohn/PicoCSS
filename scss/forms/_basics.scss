@@ -470,7 +470,7 @@
     + small {
       display: block;
       width: 100%;
-      margin-top: calc(var(#{$css-var-prefix}spacing) * -0.75);
+      margin-block-start: calc(var(#{$css-var-prefix}spacing) * -0.75);
       margin-bottom: var(#{$css-var-prefix}spacing);
       color: var(#{$css-var-prefix}muted-color);
     }
@@ -489,7 +489,7 @@
   // Styles for Input inside a label
   #{$parent-selector} label {
     > :where(input, select, textarea) {
-      margin-top: calc(var(#{$css-var-prefix}spacing) * 0.25);
+      margin-block-start: calc(var(#{$css-var-prefix}spacing) * 0.25);
     }
   }
 }

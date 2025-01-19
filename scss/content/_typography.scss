@@ -43,7 +43,7 @@
   #{$parent-selector} pre,
   #{$parent-selector} table,
   #{$parent-selector} ul {
-    margin-top: 0;
+    margin-block-start: 0;
     margin-bottom: var(#{$css-var-prefix}typography-spacing-vertical);
     color: var(#{$css-var-prefix}color);
     font-style: normal;
@@ -57,7 +57,7 @@
   #{$parent-selector} h4,
   #{$parent-selector} h5,
   #{$parent-selector} h6 {
-    margin-top: 0;
+    margin-block-start: 0;
     margin-bottom: var(#{$css-var-prefix}typography-spacing-vertical);
     color: var(#{$css-var-prefix}color);
     font-weight: var(#{$css-var-prefix}font-weight);
@@ -89,7 +89,7 @@
   #{$parent-selector}
     :where(article, address, blockquote, dl, figure, form, ol, p, pre, table, ul) {
     ~ :is(h1, h2, h3, h4, h5, h6) {
-      margin-top: var(#{$css-var-prefix}typography-spacing-top);
+      margin-block-start: var(#{$css-var-prefix}typography-spacing-top);
     }
   }
 
@@ -103,7 +103,7 @@
     margin-bottom: var(#{$css-var-prefix}typography-spacing-vertical);
 
     > * {
-      margin-top: 0;
+      margin-block-start: 0;
       margin-bottom: 0;
     }
 
@@ -125,7 +125,7 @@
   // 1. Remove the margin on nested lists in Chrome, Edge, IE, and Safari
   #{$parent-selector} :where(dl, ol, ul) :where(dl, ol, ul) {
     margin: 0; // 1
-    margin-top: calc(var(#{$css-var-prefix}typography-spacing-vertical) * 0.25);
+    margin-block-start: calc(var(#{$css-var-prefix}typography-spacing-vertical) * 0.25);
   }
 
   #{$parent-selector} ul li {
@@ -151,7 +151,7 @@
     border-inline-end: none;
 
     footer {
-      margin-top: calc(var(#{$css-var-prefix}typography-spacing-vertical) * 0.5);
+      margin-block-start: calc(var(#{$css-var-prefix}typography-spacing-vertical) * 0.5);
       color: var(#{$css-var-prefix}blockquote-footer-color);
     }
   }
