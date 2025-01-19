@@ -45,7 +45,7 @@
 
     & ~ label {
       display: inline-block;
-      margin-bottom: 0;
+      margin-block-end: 0;
       cursor: pointer;
 
       &:not(:last-of-type) {

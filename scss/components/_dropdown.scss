@@ -10,7 +10,7 @@
   // ––––––––––––––––––––
   #{$parent-selector} details.dropdown {
     position: relative;
-    border-bottom: none;
+    border-block-end: none;
 
     @if $enable-transitions {
       &[open] {
@@ -163,7 +163,7 @@
 
         li {
           width: 100%;
-          margin-bottom: 0;
+          margin-block-end: 0;
           padding: calc(var(#{$css-var-prefix}form-element-spacing-vertical) * 0.5)
             var(#{$css-var-prefix}form-element-spacing-horizontal);
           list-style: none;
@@ -173,12 +173,12 @@
           }
 
           &:last-of-type {
-            margin-bottom: calc(var(#{$css-var-prefix}form-element-spacing-vertical) * 0.5);
+            margin-block-end: calc(var(#{$css-var-prefix}form-element-spacing-vertical) * 0.5);
           }
 
           details {
             width: 100%;
-            margin-bottom: 0;
+            margin-block-end: 0;
             > summary {
               line-height: var(#{$css-var-prefix}line-height);
             }
@@ -224,7 +224,7 @@
       // Button opened
       // inside container type accordion
       // ––––––––––––––––––––
-      margin-bottom: 0;
+      margin-block-end: 0;
 
       // Close for dropdown
       // inside container type accordion
@@ -263,7 +263,7 @@
     display: inline;
     margin: calc(var(#{$css-var-prefix}nav-element-spacing-vertical) * -1) 0;
     // Override height
-    margin-bottom: 0;
+    margin-block-end: 0;
 
     > summary {
       &:not([role]) {

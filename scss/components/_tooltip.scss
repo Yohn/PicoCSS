@@ -10,7 +10,7 @@
     position: relative;
 
     &:not(:has(a, button, input, [role="button"])):not(a, button, input, [role="button"]) {
-      border-bottom: 1px dotted;
+      border-block-end: 1px dotted;
       text-decoration: none;
       cursor: help;
     }
@@ -70,7 +70,7 @@
       &:after {
         transform: translate(-50%, -0.3rem);
         border: 0.3rem solid transparent;
-        border-bottom: 0.3rem solid;
+        border-block-end: 0.3rem solid;
       }
     }
 

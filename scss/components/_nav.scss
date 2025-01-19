@@ -33,7 +33,7 @@
     ol,
     ul {
       align-items: center;
-      margin-bottom: 0;
+      margin-block-end: 0;
       padding: 0;
       list-style: none;
 
@@ -72,7 +72,7 @@
       select {
         height: auto;
         margin-inline-end: inherit;
-        margin-bottom: 0;
+        margin-block-end: 0;
         margin-inline-start: inherit;
         padding: calc(
             var(#{$css-var-prefix}nav-link-spacing-vertical) -

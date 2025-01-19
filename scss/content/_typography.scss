@@ -44,7 +44,7 @@
   #{$parent-selector} table,
   #{$parent-selector} ul {
     margin-block-start: 0;
-    margin-bottom: var(#{$css-var-prefix}typography-spacing-vertical);
+    margin-block-end: var(#{$css-var-prefix}typography-spacing-vertical);
     color: var(#{$css-var-prefix}color);
     font-style: normal;
     font-weight: var(#{$css-var-prefix}font-weight);
@@ -58,7 +58,7 @@
   #{$parent-selector} h5,
   #{$parent-selector} h6 {
     margin-block-start: 0;
-    margin-bottom: var(#{$css-var-prefix}typography-spacing-vertical);
+    margin-block-end: var(#{$css-var-prefix}typography-spacing-vertical);
     color: var(#{$css-var-prefix}color);
     font-weight: var(#{$css-var-prefix}font-weight);
     font-size: var(#{$css-var-prefix}font-size);
@@ -95,16 +95,16 @@
 
   // Paragraphs
   #{$parent-selector} p {
-    margin-bottom: var(#{$css-var-prefix}typography-spacing-vertical);
+    margin-block-end: var(#{$css-var-prefix}typography-spacing-vertical);
   }
 
   // Heading group
   #{$parent-selector} hgroup {
-    margin-bottom: var(#{$css-var-prefix}typography-spacing-vertical);
+    margin-block-end: var(#{$css-var-prefix}typography-spacing-vertical);
 
     > * {
       margin-block-start: 0;
-      margin-bottom: 0;
+      margin-block-end: 0;
     }
 
     > *:not(:first-child):last-child {
@@ -117,7 +117,7 @@
   // Lists
   #{$parent-selector} :where(ol, ul) {
     li {
-      margin-bottom: calc(var(#{$css-var-prefix}typography-spacing-vertical) * 0.25);
+      margin-block-end: calc(var(#{$css-var-prefix}typography-spacing-vertical) * 0.25);
     }
   }
 
@@ -159,7 +159,7 @@
   // Abbreviations
   // 1. Remove underline decoration in Chrome, Edge, IE, Opera, and Safari
   #{$parent-selector} abbr[title] {
-    border-bottom: 1px dotted;
+    border-block-end: 1px dotted;
     text-decoration: none; // 1
     cursor: help;
   }

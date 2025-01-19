@@ -54,7 +54,7 @@
 
   #{$parent-selector} pre {
     display: block;
-    margin-bottom: var(#{$css-var-prefix}spacing);
+    margin-block-end: var(#{$css-var-prefix}spacing);
 
     > code {
       display: block;

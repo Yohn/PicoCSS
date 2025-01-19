@@ -10,12 +10,12 @@
   #{$parent-selector} section[role="region"] {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 0;
+    margin-block-end: 0;
 
     details {
       display: contents;
-      margin-bottom: 0;
-      padding-bottom: 0;
+      margin-block-end: 0;
+      padding-block-end: 0;
 
       summary {
         flex-grow: 1;
@@ -23,7 +23,7 @@
         margin: 0;
         padding: calc(var(#{$css-var-prefix}block-spacing-vertical) * 0.75)
           calc(var(#{$css-var-prefix}block-spacing-horizontal) * 1.5);
-        border-bottom: 1px solid transparent; //(#{$css-var-prefix}primary-background);
+        border-block-end: 1px solid transparent; //(#{$css-var-prefix}primary-background);
         background-color: var(#{$css-var-prefix}card-sectioning-background-color);
         list-style-type: none;
         touch-action: manipulation;
@@ -69,7 +69,7 @@
           order: 1;
           width: 100%;
           padding: var(#{$css-var-prefix}spacing);
-          padding-bottom: 0;
+          padding-block-end: 0;
           opacity: 1;
           transition: opacity var(#{$css-var-prefix}transition);
         }
