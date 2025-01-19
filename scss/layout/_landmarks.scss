@@ -38,7 +38,7 @@
         $first-breakpoint: true;
         width: 100%;
         margin-inline-end: auto;
-        margin-left: auto;
+        margin-inline-start: auto;
         padding: var(#{$css-var-prefix}block-spacing-vertical)
           var(#{$css-var-prefix}block-spacing-horizontal);
 
@@ -50,7 +50,7 @@
                 @if $first-breakpoint {
                   $first-breakpoint: false;
                   padding-inline-end: 0;
-                  padding-left: 0;
+                  padding-inline-start: 0;
                 }
               }
             }

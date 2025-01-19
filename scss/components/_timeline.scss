@@ -16,7 +16,7 @@
       bottom: 0;
       left: 50%;
       width: 6px;
-      margin-left: -3px;
+      margin-inline-start: -3px;
       background-color: var(#{$css-var-prefix}timeline-line-color);
       content: "";
     }
@@ -104,7 +104,7 @@
         // Full-width containers
         width: 100%;
         padding-inline-end: 25px;
-        padding-left: 40px;
+        padding-inline-start: 40px;
 
         // Make all right containers behave like the left ones
         &.right {

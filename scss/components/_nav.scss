@@ -38,7 +38,7 @@
       list-style: none;
 
       &:first-of-type {
-        margin-left: calc(var(#{$css-var-prefix}nav-element-spacing-horizontal) * -1);
+        margin-inline-start: calc(var(#{$css-var-prefix}nav-element-spacing-horizontal) * -1);
       }
       &:last-of-type {
         margin-inline-end: calc(var(#{$css-var-prefix}nav-element-spacing-horizontal) * -1);
@@ -73,7 +73,7 @@
         height: auto;
         margin-inline-end: inherit;
         margin-bottom: 0;
-        margin-left: inherit;
+        margin-inline-start: inherit;
         padding: calc(
             var(#{$css-var-prefix}nav-link-spacing-vertical) -
               (var(#{$css-var-prefix}border-width) * 2)

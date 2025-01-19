@@ -10,9 +10,9 @@
   //    with the forced overflow hidden on the input[type="file"] element.
   #{$parent-selector} [type="file"] {
     #{$css-var-prefix}color: var(#{$css-var-prefix}muted-color);
-    margin-left: calc(var(#{$css-var-prefix}outline-width) * -1); // 1
+    margin-inline-start: calc(var(#{$css-var-prefix}outline-width) * -1); // 1
     padding: calc(var(#{$css-var-prefix}form-element-spacing-vertical) * 0.5) 0;
-    padding-left: var(#{$css-var-prefix}outline-width); // 1
+    padding-inline-start: var(#{$css-var-prefix}outline-width); // 1
     border: 0;
     border-radius: 0;
     background: none;

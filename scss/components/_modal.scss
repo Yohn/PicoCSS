@@ -71,7 +71,7 @@
 
         #{$close-selector} {
           margin: 0;
-          margin-left: var(#{$css-var-prefix}spacing);
+          margin-inline-start: var(#{$css-var-prefix}spacing);
           padding: 0;
           float: right;
         }
@@ -85,7 +85,7 @@
           margin-bottom: 0;
 
           &:not(:first-of-type) {
-            margin-left: calc(var(#{$css-var-prefix}spacing) * 0.5);
+            margin-inline-start: calc(var(#{$css-var-prefix}spacing) * 0.5);
           }
         }
       }
@@ -97,7 +97,7 @@
         height: 1rem;
         margin-top: calc(var(#{$css-var-prefix}spacing) * -1);
         margin-bottom: var(#{$css-var-prefix}spacing);
-        margin-left: auto;
+        margin-inline-start: auto;
         border: none;
         background-image: var(#{$css-var-prefix}icon-close);
         background-position: center;

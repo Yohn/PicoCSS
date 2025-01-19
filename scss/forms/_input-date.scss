@@ -33,7 +33,7 @@
     &::-webkit-calendar-picker-indicator {
       width: var(#{$css-var-prefix}icon-width);
       margin-inline-end: calc(var(#{$css-var-prefix}icon-width) * -1);
-      margin-left: var(#{$css-var-prefix}icon-position);
+      margin-inline-start: var(#{$css-var-prefix}icon-position);
       opacity: 0;
     }
   }

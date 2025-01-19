@@ -39,7 +39,7 @@
       margin-bottom: 0;
 
       &:not(:first-child) {
-        margin-left: 0;
+        margin-inline-start: 0;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
       }
@@ -56,7 +56,7 @@
 
     > details {
       &:not(:first-child) > summary {
-        margin-left: 0;
+        margin-inline-start: 0;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
       }
@@ -82,7 +82,7 @@
     > legend,
     > details > summary {
       &:not(:first-child) {
-        margin-left: calc(var(#{$css-var-prefix}border-width) * -1);
+        margin-inline-start: calc(var(#{$css-var-prefix}border-width) * -1);
       }
     }
 
@@ -175,7 +175,7 @@
       > details > summary {
         &:not(:first-child) {
           margin-inline-end: 0;
-          margin-left: auto;
+          margin-inline-start: auto;
           border-top-right-radius: 0;
           border-top-left-radius: var(#{$css-var-prefix}border-radius);
           border-bottom-right-radius: 0;
@@ -202,7 +202,7 @@
       > details > summary {
         &:not(:first-child) {
           margin-inline-end: calc(var(#{$css-var-prefix}border-width) * -1);
-          margin-left: auto;
+          margin-inline-start: auto;
         }
       }
     }
@@ -244,7 +244,7 @@
       > label,
       > legend,
       > details > summary {
-        margin-left: 0;
+        margin-inline-start: 0;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
       }
