@@ -9,9 +9,9 @@
   #{$parent-selector} .container,
   #{$parent-selector} .container-fluid {
     width: 100%;
-    margin-right: auto;
+    margin-inline-end: auto;
     margin-left: auto;
-    padding-right: var(#{$css-var-prefix}spacing);
+    padding-inline-end: var(#{$css-var-prefix}spacing);
     padding-left: var(#{$css-var-prefix}spacing);
   }
 
@@ -23,7 +23,7 @@
           max-width: map.get($values, "viewport");
           @if $first-breakpoint {
             $first-breakpoint: false;
-            padding-right: 0;
+            padding-inline-end: 0;
             padding-left: 0;
           }
         }

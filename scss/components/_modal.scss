@@ -131,7 +131,7 @@
   // Utilities
   @if $enable-classes {
     .modal-is-open {
-      padding-right: var(#{$css-var-prefix}scrollbar-width, 0px);
+      padding-inline-end: var(#{$css-var-prefix}scrollbar-width, 0px);
       overflow: hidden;
       pointer-events: none;
       touch-action: none;

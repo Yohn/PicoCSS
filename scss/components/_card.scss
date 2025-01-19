@@ -19,7 +19,7 @@
 
     > header,
     > footer {
-      margin-right: calc(var(#{$css-var-prefix}block-spacing-horizontal) * -1);
+      margin-inline-end: calc(var(#{$css-var-prefix}block-spacing-horizontal) * -1);
       margin-left: calc(var(#{$css-var-prefix}block-spacing-horizontal) * -1);
       padding: calc(var(#{$css-var-prefix}block-spacing-vertical) * 0.66)
         var(#{$css-var-prefix}block-spacing-horizontal);

@@ -41,7 +41,7 @@
         margin-left: calc(var(#{$css-var-prefix}nav-element-spacing-horizontal) * -1);
       }
       &:last-of-type {
-        margin-right: calc(var(#{$css-var-prefix}nav-element-spacing-horizontal) * -1);
+        margin-inline-end: calc(var(#{$css-var-prefix}nav-element-spacing-horizontal) * -1);
       }
     }
 
@@ -71,7 +71,7 @@
       input:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]),
       select {
         height: auto;
-        margin-right: inherit;
+        margin-inline-end: inherit;
         margin-bottom: 0;
         margin-left: inherit;
         padding: calc(

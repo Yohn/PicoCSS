@@ -51,7 +51,7 @@
       padding: 0;
       transform: translate(-50%, 0rem);
       border-top: 0.3rem solid;
-      border-right: 0.3rem solid transparent;
+      border-inline-end: 0.3rem solid transparent;
       border-left: 0.3rem solid transparent;
       border-radius: 0;
       background-color: transparent;
@@ -104,7 +104,7 @@
       &:after {
         transform: translate(-0.3rem, -50%);
         border: 0.3rem solid transparent;
-        border-right: 0.3rem solid;
+        border-inline-end: 0.3rem solid;
       }
     }
 

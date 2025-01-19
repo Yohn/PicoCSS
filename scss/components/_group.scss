@@ -174,7 +174,7 @@
       > legend,
       > details > summary {
         &:not(:first-child) {
-          margin-right: 0;
+          margin-inline-end: 0;
           margin-left: auto;
           border-top-right-radius: 0;
           border-top-left-radius: var(#{$css-var-prefix}border-radius);
@@ -201,7 +201,7 @@
       > legend,
       > details > summary {
         &:not(:first-child) {
-          margin-right: calc(var(#{$css-var-prefix}border-width) * -1);
+          margin-inline-end: calc(var(#{$css-var-prefix}border-width) * -1);
           margin-left: auto;
         }
       }
