@@ -198,3 +198,13 @@ $modules: map.merge(
   ),
   $modules
 );
+
+// Custom theme mappings
+$color-mappings: () !default;
+// Check if custom theme mappings are provided and merge them
+$custom-theme-mappings: () !default;
+$color-mappings: if(
+  list.length($custom-theme-mappings) > 0,
+  map.merge($color-mappings, $custom-theme-mappings),
+  $color-mappings
+);
