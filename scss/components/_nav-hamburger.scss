@@ -68,7 +68,7 @@
           a {
             display: block;
             margin: 0;
-            border-bottom: 1px solid transparent;
+            border-block-end: 1px solid transparent;
             border-radius: 0;
             transition:
               border-color var(#{$css-var-prefix}transition),
