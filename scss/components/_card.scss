@@ -10,7 +10,7 @@
   #{$parent-selector} [role="article"]:not(:has(> form:first-child)),
   #{$parent-selector} article > form,
   #{$parent-selector} [role="article"] > form {
-    margin-bottom: var(#{$css-var-prefix}block-spacing-vertical);
+    margin-block-end: var(#{$css-var-prefix}block-spacing-vertical);
     padding: var(#{$css-var-prefix}block-spacing-vertical)
       var(#{$css-var-prefix}block-spacing-horizontal);
     border-radius: var(#{$css-var-prefix}border-radius);
@@ -19,17 +19,17 @@
 
     > header,
     > footer {
-      margin-right: calc(var(#{$css-var-prefix}block-spacing-horizontal) * -1);
-      margin-left: calc(var(#{$css-var-prefix}block-spacing-horizontal) * -1);
+      margin-inline-end: calc(var(#{$css-var-prefix}block-spacing-horizontal) * -1);
+      margin-inline-start: calc(var(#{$css-var-prefix}block-spacing-horizontal) * -1);
       padding: calc(var(#{$css-var-prefix}block-spacing-vertical) * 0.66)
         var(#{$css-var-prefix}block-spacing-horizontal);
       background-color: var(#{$css-var-prefix}card-sectioning-background-color);
     }
 
     > header {
-      margin-top: calc(var(#{$css-var-prefix}block-spacing-vertical) * -1);
-      margin-bottom: var(#{$css-var-prefix}block-spacing-vertical);
-      border-bottom: var(#{$css-var-prefix}border-width)
+      margin-block-start: calc(var(#{$css-var-prefix}block-spacing-vertical) * -1);
+      margin-block-end: var(#{$css-var-prefix}block-spacing-vertical);
+      border-block-end: var(#{$css-var-prefix}border-width)
         solid
         var(#{$css-var-prefix}card-border-color);
       border-top-right-radius: var(#{$css-var-prefix}border-radius);
@@ -41,7 +41,7 @@
       > h4,
       > h5,
       > h6 {
-        margin-bottom: 0;
+        margin-block-end: 0;
       }
 
       > hgroup {
@@ -51,15 +51,15 @@
         > h4,
         > h5,
         > h6 {
-          margin-bottom: 0;
+          margin-block-end: 0;
         }
       }
     }
 
     > footer {
-      margin-top: var(#{$css-var-prefix}block-spacing-vertical);
-      margin-bottom: calc(var(#{$css-var-prefix}block-spacing-vertical) * -1);
-      border-top: var(#{$css-var-prefix}border-width)
+      margin-block-start: var(#{$css-var-prefix}block-spacing-vertical);
+      margin-block-end: calc(var(#{$css-var-prefix}block-spacing-vertical) * -1);
+      border-block-start: var(#{$css-var-prefix}border-width)
         solid
         var(#{$css-var-prefix}card-border-color);
       border-bottom-right-radius: var(#{$css-var-prefix}border-radius);
@@ -74,15 +74,15 @@
       nav,
       ul,
       ol {
-        margin-bottom: 0px;
+        margin-block-end: 0px;
 
         &:last-child {
-          margin-bottom: 0px;
+          margin-block-end: 0px;
         }
 
         /* Also remove if next input after button is a hidden input */
         &:has(+ [type="hidden"]) {
-          margin-bottom: 0px;
+          margin-block-end: 0px;
         }
       }
     }
