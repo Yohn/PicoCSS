@@ -23,6 +23,7 @@ You can see the new features I, and many others have created pull requests for b
  - [YoSelect](https://github.com/Yohn/YoSelect) Searchable `<select>` options, with tagging, image support, and a lot more!
  - [PicoCSS-WYSIWYG](https://github.com/Yohn/PicoCSS-WYSIWYG) Simple editor wih card, accordion, image, links, lists, headers and more
  - [PicoCSS-Datatables](https://github.com/Yohn/PicoCSS-Datatables) Searchable, sortable, editable, filterable table data helper.
+ - [PicoCSS-Tag-Select](https://github.com/Yohn/PicoCSS-Tag-Select) Simplier tag class to change a select tag into tags
 
 ## Minimal CSS Framework for Semantic HTML
 
